@@ -2,7 +2,7 @@
 import { useEffect } from 'react'
 
 export default function CTAContactSection() {
-  const email = 'info@aboutconsulting.se'
+  const email = 'robert@cogwork.se'
 
   useEffect(() => {
     const handleContactButtonClick = () => {

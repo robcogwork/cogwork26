@@ -3,7 +3,7 @@ import Image from 'next/legacy/image'
 import { useEffect } from 'react'
 
 export default function HeroContact() {
-  const email = 'marika.hjorth@aboutconsulting.se'
+  const email = 'robert@cogwork.se'
 
   useEffect(() => {
     const handleContactButtonClick = () => {
@@ -30,17 +30,17 @@ export default function HeroContact() {
       <div className="grid grid-cols-1 lg:grid-cols-2 py-20 px-10 lg:py-20 gap-16 bg-salmon-500 justify-center items-center">
         <div className="flex justify-center items-center">
           <Image
-            src="/"
+            src="/logo.png"
             alt="Company profile "
-            width={350}
-            height={350}
-            className="rounded-full flex items-center"
+            width={240}
+            height={240}
+            className="flex items-center"
             priority={true}
           />
         </div>
         <div className="flex flex-col items-start lg:pr-36">
-          <h2>Marika Hjorth</h2>
-          <em className="text-xl mb-5">Medgrundare och VD</em>
+          <h2>Cogwork AB</h2>
+          <em className="text-xl mb-5"> Erik Terenius</em>
           <p className="text-xl mb-8">
             Text om företag, grundare vd etc, Lorem ipsum dolor sit amet
             consectetur adipisicing elit. Exercitationem, fugit? Lorem ipsum,

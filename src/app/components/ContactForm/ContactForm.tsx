@@ -48,7 +48,7 @@ export default function ContactForm() {
             type="text"
             id="name"
             value={name}
-            placeholder="Anna Andersson"
+            placeholder="Rutger Jönåker"
             onChange={(e) => setName(e.target.value)}
             required
           />
