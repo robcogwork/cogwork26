@@ -1,0 +1,96 @@
+.wrapper {
+  display: flex;
+  height: 189px;
+  margin-bottom: 4rem;
+  padding-left: 2.5rem;
+}
+
+.wrapper h1,
+.words h1 {
+  font-size: 8rem;
+}
+
+.words {
+  overflow: hidden;
+}
+
+.words h1 {
+  animation: spin_words 10s infinite;
+  height: 130%;
+  padding-left: 1rem;
+}
+
+@keyframes spin_words {
+  10% {
+    transform: translateY(-212%);
+  }
+  25% {
+    transform: translateY(-200%);
+  }
+  35% {
+    transform: translateY(-312%);
+  }
+  50% {
+    transform: translateY(-300%);
+  }
+  60% {
+    transform: translateY(-412%);
+  }
+  75% {
+    transform: translateY(-400%);
+  }
+  85% {
+    transform: translateY(-512%);
+  }
+  100% {
+    transform: translateY(-500%);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wrapper {
+    height: 49px;
+    margin-bottom: 6rem;
+    width: 100%;
+  }
+
+  .wrapper h1,
+  .words h1 {
+    font-size: 2.75rem;
+  }
+
+  .words {
+    height: 49px;
+  }
+
+  .words h1 {
+    height: 30%;
+    padding-left: 0.6rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .wrapper {
+    margin-bottom: 6rem;
+    padding-left: 12.5rem;
+    padding-right: 12.5rem;
+    width: 100%;
+  }
+
+  .wrapper h1,
+  .words h1 {
+    font-size: 8rem;
+  }
+
+  .words h1 {
+    height: 30%;
+    padding-left: 0.6rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .wrapper {
+    padding-left: 12.5rem;
+    padding-right: 12.5rem;
+  }
+}
