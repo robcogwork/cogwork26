@@ -44,7 +44,7 @@ export default function Footer() {
       <div className="grid grid-cols-1 lg:grid-cols-4 gap-10">
         <div className="flex flex-col justify-between gap-16">
           <div>
-            <h3 className="mb-2">About consulting</h3>
+            <h3 className="mb-2">Cogwork AB</h3>
             {/* <p>Taking FMCG to the next level</p> */}
           </div>
           <div>
