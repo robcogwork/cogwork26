@@ -3,7 +3,7 @@ import Image from 'next/legacy/image'
 export default function Vision() {
   return (
     <section>
-      <div className="grid grid-cols-1 lg:grid-cols-2 text-aubergine-500 justify-center items-center border-b-2 border-salmon-500">
+      <div className="grid grid-cols-1 lg:grid-cols-2 text-aubergine-500 justify-center items-center mt-20">
         <div className="py-20 px-10 lg:py-36 lg:px-28 bg-salmon-500 text-center flex items-center flex-col">
           <Image
             src="/erik.jpg"
