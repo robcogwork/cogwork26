@@ -1,25 +1,22 @@
 'use client'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs'
 import { RxDotFilled } from 'react-icons/rx'
 
 export default function ImageCarousel() {
   const slides = [
     {
-      url: 'https://images.unsplash.com/photo-1506617420156-8e4536971650?q=80&w=2846&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      url: '/photo.jpg',
     },
     {
-      url: 'https://images.unsplash.com/photo-1452179535021-368bb0edc3a8?q=80&w=2048&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      url: '/photo2.jpg',
     },
     {
-      url: 'https://images.unsplash.com/photo-1584771145729-0bd9fda6529b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+      url: '/photo.jpg',
     },
-    // {
-    //   url: 'https://images.unsplash.com/photo-1512756290469-ec264b7fbf87?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2253&q=80',
-    // },
-    // {
-    //   url: 'https://images.unsplash.com/photo-1496181133206-80ce9b88a853?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2671&q=80',
-    // },
+    {
+      url: '/photo2.jpg',
+    },
   ]
 
   const [currentIndex, setCurrentIndex] = useState(0)
@@ -39,6 +36,14 @@ export default function ImageCarousel() {
   const goToSlide = (slideIndex: number) => {
     setCurrentIndex(slideIndex)
   }
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      nextSlide()
+    }, 3000) // Change slide every 3 seconds
+
+    return () => clearInterval(interval) // Cleanup interval on component unmount
+  }, [currentIndex])
 
   return (
     <div className="lg:max-w-[1400px] h-[380px] lg:h-[780px] w-full m-auto py-16 px-4 relative group">

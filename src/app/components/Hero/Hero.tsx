@@ -33,14 +33,15 @@ export default function Hero() {
 
       <div className={styles.CTA}>
         <p className={styles.para} data-scroll data-scroll-speed="0.7">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur
-          commodi cum totam! Aperiam blanditiis mollitia repellat exercitationem
-          hic? Atque maxime consequatur quo sunt culpa nobis tempore animi
-          rerum, esse suscipit!
+          Mina Aktiviteter är ett heltäckande verksamhetssystem för bokföring,
+          kursadministration och medlemsregister. Med kundanpassade lösningar
+          för företag, förbund, föreningar och gym. Systemet inkluderar även
+          domänerna dans.se och idrott.se med specialanpassade lösningar för
+          respektive område.
         </p>
         <Link href="/tjanster">
           <button data-scroll data-scroll-speed="0.7" className={styles.button}>
-            <h4>Upptäck</h4>
+            <h4>Läs Mer</h4>
           </button>
         </Link>
       </div>

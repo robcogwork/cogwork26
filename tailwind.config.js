@@ -13,14 +13,14 @@ module.exports = {
     colors: {
       /* Primary colors */
       apricot: {
-        500: '#FAE4CD',
-        300: '#FBECDC',
-        100: '#FCF2E7',
+        500: '#F5F5F5',
+        300: '#F7F7F7',
+        100: '#FAFAFA',
       },
       salmon: {
-        500: '#F08C45',
-        300: '#F5A76C',
-        100: '#F9C8A4',
+        500: '#D9793D',
+        300: '#E89063',
+        100: '#F2B08B',
       },
       aubergine: {
         500: '#50192F',
@@ -30,9 +30,9 @@ module.exports = {
 
       /* Accent colors */
       kale: {
-        500: '#004650',
-        300: '#4D7E85',
-        100: '#82A5AA',
+        500: '#14192C',
+        300: '#3A3F55',
+        100: '#5E637D',
       },
       cilantro: {
         500: '#00C48C',

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&family=Fasthand&family=Koulen&family=Syne:wght@400;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&family=Poppins:wght@400;600&family=Playfair+Display:ital@1&family=Dancing+Script:wght@400;500&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -17,11 +17,10 @@ body {
 }
 
 :root {
-  /* Font styles */
-  --font-body: 'Syne', sans-serif;
-  --font-headings: 'Syne', sans-serif;
-  --font-italic: 'EB Garamond', serif;
-  --font-tagline: 'Fasthand', cursive;
+  --font-body: 'Work Sans', sans-serif;
+  --font-headings: 'Poppins', sans-serif;
+  --font-italic: 'Playfair Display', serif;
+  --font-tagline: 'Dancing Script', cursive;
 }
 
 h2,
@@ -36,7 +35,7 @@ label {
 }
 
 h1 {
-  font-family: 'Koulen', serif;
+  font-family: 'Work Sans', serif;
 }
 
 h2 {

@@ -21,22 +21,32 @@ export default function Vision() {
             </em>
             "
           </p>
-          <h4 className="pt-10">— Lorem, ipsum., Medgrundare och VD</h4>
+          <h4 className="pt-10">— Erik Terenius, Grundare och VD</h4>
         </div>
         <div className="py-20 px-10 lg:px-14 flex gap-8 flex-col">
-          <h4>Vårt team</h4>
-          <p className="text-2xl lg:text-3xl mb-16">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut quis
-            eaque tempora quisquam expedita totam possimus, obcaecati,
-            perferendis facere ratione non maiores magnam a dolore deleniti
-            earum ipsa asperiores enim, aspernatur hic odio. Maxime consequuntur
-            nobis, quibusdam odit incidunt totam!
+          <h4>Cogwork</h4>
+          <p className="text-lg lg:text-xl mb-16">
+            CogWork AB är ett Uppsalaföretag som utvecklar och driver ett helt
+            molnbaserat verksamhetssystem byggt för att underlätta
+            administrationen för företag, föreningar, förbund och andra
+            organisationer. Vidareutveckling sker i nära samarbete med
+            användarna av våra molntjänster. Vi erbjuder administrativa
+            kringtjänster för Mina Aktiviteter, som exempel bokföring och
+            kanslitjänster. Vi har även stor erfarenhet av att bygga
+            funktionella webbplatser för både små och stora organisationer.
           </p>
-          <h4>Vårt mål</h4>
-          <p className="text-2xl lg:text-3xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum,
-            fugit aperiam. Enim perferendis aperiam quam sit, quos veniam alias
-            expedita.
+          <h4>Vårt Team</h4>
+          <p className="text-lg lg:text-xl">
+            På Cogwork arbetar vi som ett sammansvetsat team för att leverera
+            lösningar som möter våra kunders behov. Med djup erfarenhet inom IT,
+            webbutveckling, integration, hållbarhet och föreningsarbete,
+            kombinerar vi teknisk expertis med förståelse för verksamheter i
+            olika branscher. Vi strävar efter att skapa värde genom innovativa
+            och hållbara lösningar, oavsett om det handlar om att utveckla
+            webbplatser, implementera systemintegrationer eller erbjuda stöd i
+            administrativa processer. Tillsammans arbetar vi för att förenkla
+            och effektivisera våra kunders vardag – alltid med ett personligt
+            och engagerat förhållningssätt.
           </p>
         </div>
       </div>

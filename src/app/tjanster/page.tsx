@@ -9,7 +9,7 @@ export const metadata = {
   // description: "",
 }
 
-export default function OurServices() {
+export default function Services() {
   return (
     <main>
       <HeroAbout />

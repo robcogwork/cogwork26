@@ -53,6 +53,13 @@ export default function Navbar() {
               </h4>
             </Link>
           </div>
+          <div>
+            <Link href="/handledning">
+              <h4 className="text-aubergine-500 hover:underline">
+                Handledning
+              </h4>
+            </Link>
+          </div>
 
           <div>
             <Link href="/kontakt">

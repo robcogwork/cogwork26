@@ -3,18 +3,10 @@ export const Links = [
     title: 'Hem',
     href: '/',
   },
-  // {
-  //   title: "Cases",
-  //   href: '/'
-  // },
-  // {
-  //   title: "Teamet",
-  //   href: '/'
-  // },
-  // {
-  //   title: "Samarbetspartners",
-  //   href: '/'
-  // },
+  {
+    title: 'Handledning',
+    href: '/handledning',
+  },
   {
     title: 'Våra tjänster',
     href: '/tjanster',
@@ -23,10 +15,6 @@ export const Links = [
     title: 'Kontakt',
     href: '/kontakt',
   },
-  // {
-  //   title: "Jobb",
-  //   href: '/'
-  // },
 ]
 
 export const FooterLinks = [

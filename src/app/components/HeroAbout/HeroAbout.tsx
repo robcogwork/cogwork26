@@ -2,41 +2,58 @@ import Image from 'next/legacy/image'
 
 export default function HeroAbout() {
   return (
-    <main className="box-content pt-60 px-10 lg:px-14 text-aubergine-500 border-b-2 border-salmon-500">
+    <main className="box-content pt-60 px-10 lg:px-40 text-aubergine-500 border-b-2 border-salmon-500">
       <h2 className="text-5xl mb-20">Våra tjänster</h2>
-      <div className="grid grid-cols-1 gap-10 lg:gap-20 lg:grid-cols-2  items-center">
+      <div className="grid grid-cols-1 gap-10 lg:gap-20 lg:grid-cols-2  items-center mb-20">
         <div className="">
           <Image
             src="/photo.jpg"
-            alt="Image of grocery store check-out"
-            width={2940}
-            height={1960}
-            className="rounded-3xl"
+            alt="Image of a gathering"
+            width={680}
+            height={480}
+            className="rounded-xl shadow-lg"
           />
         </div>
-        <div className=" lg:px-16 flex gap-5 flex-col">
+        <div className=" lg:px-16 flex gap-5 flex-col justify-start">
+          <h2>För företag</h2>
           <p>
-            om företaget Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Alias optio sit reprehenderit. Repellat nobis optio natus quia
-            beatae obcaecati minus.
+            Heltäckande lösningar för administration av aktiviteter med
+            automatisk bokföring.
           </p>
+          <h2>För förbundet</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-            voluptatum vero alias aut totam perferendis cum quam et impedit,
-            repudiandae similique dolorem nulla. Maiores nostrum ipsa a facere
-            error dolorum soluta expedita id! In sequi praesentium qui totam
-            minus blanditiis.
+            Samordna och förenkla administrationen mellan förbund, distrikt och
+            lokalföreningar.
           </p>
+          <h2>För föreningen</h2>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deserunt
-            autem reiciendis id fuga deleniti quaerat dolores voluptate non unde
-            itaque.
+            Integrera medlemsregister, bokningar, grupper, utskick och
+            bokföring. 
           </p>
         </div>
       </div>
-      <h2 className="mt-20 mb-20 lg:mt-20 lg:mb-5 text-center">
-        Våra expertisområden:
-      </h2>
+      <div className="grid grid-cols-1 gap-10 lg:gap-20 lg:grid-cols-2  items-center mb-40">
+        <div className=" lg:px-16 flex gap-5 flex-col">
+          <h2> Om Mina Aktiviteter</h2>
+          Mina Aktiviteter möjliggör automatiserad bokning av kurser, events,
+          resor, biljetter, träningstider, drop in-platser och medlemskap utan
+          något krav på inloggning.
+          <br />
+          <br />I Mina Aktiviteter ingår funktioner som flexibla
+          bokningsformulär med beräknade priser, egendefinierade datafält,
+          köhantering, betalflöden, automatiserad bokföring, medlemsregister och
+          kundkommunikation.
+        </div>
+        <div className="">
+          <Image
+            src="/photo.jpg"
+            alt="Image of a gathering"
+            width={680}
+            height={480}
+            className="rounded-xl shadow-lg"
+          />
+        </div>
+      </div>
     </main>
   )
 }
