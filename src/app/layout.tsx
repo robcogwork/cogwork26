@@ -8,9 +8,9 @@ import Footer from './components/Footer/Footer'
 const syne = Syne({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'About Consulting',
+  title: 'Cogwork AB',
   description: `
-    Din nyckel till framgång inom retail och dagligvaruhandeln. Vi fokuserar på projekt, interimslösningar och kompetensutveckling med djup erfarenhet från branschen.
+    
   `,
 }
 
