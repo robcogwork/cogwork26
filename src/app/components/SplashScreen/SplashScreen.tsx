@@ -5,15 +5,15 @@ import { motion } from 'framer-motion'
 import { opacity, slideUp } from './animation'
 
 const words = [
-  'Cogwork',
+  'Cogwork AB',
+  'Bokningssystem',
+  'Medlemshantering',
   'Minaaktiviteter.se',
   'Dans.se',
   'Idrott.se',
   'Föreningar',
   'Förbund',
   'Företag',
-  'Bokningssystem',
-  'Medlemshantering',
 ]
 
 export default function SplashScreen() {
