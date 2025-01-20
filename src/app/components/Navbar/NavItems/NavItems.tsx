@@ -40,7 +40,7 @@ const slideIn = {
 const NavItems: React.FC = () => {
   return (
     <div className={styles.nav}>
-      <div className={styles.body}>
+      <div className={styles.navItem}>
         {Links.map((link: Link, i: number) => {
           return (
             <motion.div

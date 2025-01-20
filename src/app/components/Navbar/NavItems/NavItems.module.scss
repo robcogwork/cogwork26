@@ -6,14 +6,14 @@
   justify-content: space-between;
   padding: 100px 40px 50px 40px;
 
-  .body {
+  .navItem {
     display: flex;
     flex-direction: column;
     gap: 10px;
 
     a {
       color: #dee0e9;
-      font-size: 40px;
+      font-size: clamp(28px, 3vw, 40px);
       text-decoration: none;
     }
 
