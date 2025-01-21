@@ -1,4 +1,5 @@
 import Image from 'next/legacy/image'
+import Link from 'next/link'
 
 export default function HeroAbout() {
   return (
@@ -15,21 +16,36 @@ export default function HeroAbout() {
           />
         </div>
         <div className=" lg:px-16 flex gap-5 flex-col justify-start">
-          <h2>För företag</h2>
-          <p>
-            Heltäckande lösningar för administration av aktiviteter med
-            automatisk bokföring.
-          </p>
-          <h2>För förbundet</h2>
-          <p>
-            Samordna och förenkla administrationen mellan förbund, distrikt och
-            lokalföreningar.
-          </p>
-          <h2>För föreningen</h2>
-          <p>
-            Integrera medlemsregister, bokningar, grupper, utskick och
-            bokföring. 
-          </p>
+          <div className="py-4 px-2 rounded-xl bg-transparent hover:bg-salmon-500/50 cursor-pointer">
+            <Link href="/kunder/foretag">
+              <h2>För företag</h2>
+            </Link>
+
+            <p>
+              Heltäckande lösningar för administration av aktiviteter med
+              automatisk bokföring.
+            </p>
+          </div>
+          <div className="py-4 px-2 rounded-xl bg-transparent hover:bg-salmon-500/50 cursor-pointer">
+            <Link href="/kunder/forbund">
+              <h2>För förbundet</h2>
+            </Link>
+
+            <p>
+              Samordna och förenkla administrationen mellan förbund, distrikt
+              och lokalföreningar.
+            </p>
+          </div>
+          <div className="py-4 px-2 rounded-xl bg-transparent hover:bg-salmon-500/50 cursor-pointer">
+            <Link href="/kunder/forening">
+              <h2>För föreningen</h2>
+            </Link>
+
+            <p>
+              Integrera medlemsregister, bokningar, grupper, utskick och
+              bokföring. 
+            </p>
+          </div>
         </div>
       </div>
       <div className="grid grid-cols-1 gap-10 lg:gap-20 lg:grid-cols-2  items-center mb-40">

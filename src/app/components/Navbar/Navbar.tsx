@@ -48,8 +48,8 @@ export default function Navbar() {
   }
 
   return (
-    <nav className="fixed w-full bg-solmon-500 z-50">
-      <div className="px-5 py-5 flex lg:justify-between border-b-2 border-salmon-500 gap-16">
+    <nav className="fixed w-full bg-white z-50 h-40">
+      <div className="px-5 py-5 flex lg:justify-between border-b-2 border-salmon-500 gap-16 bg-white">
         <div className="">
           <Link
             href="https://ny.cogwork.se"
