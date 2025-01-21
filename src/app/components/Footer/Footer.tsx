@@ -94,7 +94,7 @@ export default function Footer() {
               <div>
                 <div className="mt-6">
                   <input
-                    className="pr-16 md:pr-52 lg:pr-14 border-b-2 focus:outline-none placeholder:text-salmon-500 bg-aubergine-500"
+                    className="rounded-xl pr-16 py-2 md:pr-52 lg:pr-14 border-b-2 focus:outline-none placeholder:text-slate-200 bg-salmon-500"
                     type="email"
                     id="email"
                     value={email}
@@ -107,7 +107,7 @@ export default function Footer() {
 
               <div>
                 <button
-                  className="border-b-2 bg-aubergine-500 focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-salmon-500"
+                  className="border-b-2 py-2 bg-slate-500 rounded-xl focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-slate-100"
                   type="submit"
                   disabled={submitted}
                 >

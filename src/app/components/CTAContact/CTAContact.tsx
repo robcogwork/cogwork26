@@ -1,4 +1,5 @@
 'use client'
+import Link from 'next/link'
 import { useEffect } from 'react'
 
 export default function CTAContactSection() {
@@ -36,11 +37,11 @@ export default function CTAContactSection() {
           id="contactButton1"
           className="contactButton relative top-14 text-aubergine-500 px-12 py-1 border-aubergine-500 border-solid border-2 rounded-xl hover:bg-aubergine-500 hover:text-apricot-500"
         >
-          Fråga oss
+          <Link href="/#">Fråga oss</Link>
         </button>
       </div>
       <div className="pl-10 pr-16 pt-24 pb-36 border-2 border-apricot-500 border-r-salmon-500 h-full">
-        <h2 className="mb-20">Är du butiksägare eller distributör?</h2>
+        <h2 className="mb-20">Vill ni prova vår tjänst?</h2>
         <p>
           {' '}
           Massa ultricies mi quis hendrerit dolor magna eget est lorem. Massa
@@ -51,7 +52,7 @@ export default function CTAContactSection() {
           id="contactButton2"
           className="contactButton relative top-20 text-aubergine-500 px-12 py-1 border-aubergine-500 border-solid border-2 rounded-xl hover:bg-aubergine-500 hover:text-apricot-500"
         >
-          Kontakta oss
+          <Link href="/kontakt">Kontakta oss</Link>
         </button>
       </div>
       <div className="pl-10 pr-16 pt-24 pb-36">
@@ -65,7 +66,7 @@ export default function CTAContactSection() {
           id="contactButton3"
           className="contactButton relative top-20 text-aubergine-500 px-12 py-1 border-aubergine-500 border-solid border-2 rounded-xl hover:bg-aubergine-500 hover:text-apricot-500"
         >
-          Få hjälp
+          <Link href="/handledning">Fråga om hjälp</Link>
         </button>
       </div>
     </section>

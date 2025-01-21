@@ -25,7 +25,7 @@ export default function Navbar() {
   const variants = {
     open: isMobile
       ? {
-          width: '100vw',
+          width: '100svw',
           height: '90vh',
           top: 0,
           right: 0,

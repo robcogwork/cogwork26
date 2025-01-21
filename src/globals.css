@@ -4,6 +4,13 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .text-stroke {
+    -webkit-text-stroke: 2px black; /* Adjust color and size */
+    color: transparent; /* Ensures the inside is transparent */
+  }
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -14,6 +21,7 @@ body {
   /* overflow: hidden; */
   font-size: 1.1rem;
   /* cursor: wait; */
+  max-width: 100%;
 }
 
 :root {
@@ -35,7 +43,7 @@ label {
 }
 
 h1 {
-  font-family: 'Work Sans', serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 h2 {
